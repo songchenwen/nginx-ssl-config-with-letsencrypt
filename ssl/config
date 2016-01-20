@@ -1,0 +1,6 @@
+#!/bin/bash
+
+DOMAINS="-d songchenwen.com -d www.songchenwen.com"
+SERVE_DIR=/tmp/letsencrypt-auto
+#SERVER=https://acme-staging.api.letsencrypt.org/directory
+SERVER=https://acme-v01.api.letsencrypt.org/directory
