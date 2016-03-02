@@ -9,4 +9,4 @@ echo "store challege in $SERVE_DIR"
 
 mkdir -p $SERVE_DIR && $DIR/../letsencrypt/letsencrypt-auto --renew certonly --server $SERVER -a webroot --webroot-path=$SERVE_DIR --agree-tos $DOMAINS
 
-nginx -s reload
+/usr/sbin/nginx -s reload
